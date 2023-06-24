@@ -9,3 +9,4 @@ services:
     command: ["dotnet", "dev-certs","https","--trust"]  
     ports:
       - "80:80"
+      - "8000:8000"
